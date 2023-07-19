@@ -91,6 +91,14 @@ header {
     padding: 40px 0;
 }
 
+.hero-information-sectio.main-margin {
+    background-image: url("../images/Group\ 14.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
 .nav-section span, .footer-site-icon span {
     text-transform: capitalize;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
