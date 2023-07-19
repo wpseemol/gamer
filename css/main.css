@@ -260,7 +260,7 @@ header {
     gap: 25px;
 }
 
-.products div {
+.products > div {
     width: 340px;
     height: 500px;
     flex-direction: column;
@@ -277,6 +277,7 @@ header {
 }
 
 .hover-icon {
+    width: 340px;
     padding: 150px 0;
     background-color: rgba(3, 3, 3, 0.5);
     font-size: 50px;
@@ -318,4 +319,121 @@ header {
     line-height: 30px;
 }
 
+/* product add section style */
+.ad-product-container {
+    padding: 50px 0;
+}
 
+.ad-description-section {
+    width: 25vw;
+    text-align: right;
+}
+
+.ad-description-section span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 60px;
+}
+
+.ad-description-section p {
+    padding: 20px 0 0 95px;
+}
+
+.ad-image {
+    width: 25vw;
+}
+
+.ad-image div {
+    position: relative;
+}
+
+
+.ad-image div img:last-child {
+    width: 300px;
+    position: absolute;
+    bottom: -100px;
+    left: -150px;
+}
+
+/* onlu derection change */
+
+.position-change {
+    flex-direction: row-reverse;
+}
+
+.ad-image-poiton div {
+    position: relative;
+}
+
+.ad-image-poiton div img:last-child {
+    width: 300px;
+    position: absolute;
+    right: -150px;
+    bottom: -120px;
+} 
+
+
+/* Careers section style */
+
+.care-section-info {
+    max-width: 680px;
+    margin-left: auto;
+    
+}
+
+.care-section-info h2 {
+    color: #FFF;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+}
+
+.care-section-info p {
+    color: #FFF;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.care-section-info table {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.care-section-info table tr {
+     
+}
+
+.care-section-info table tr td {
+    color: #FFF;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.care-section-info table tr td:first-child {
+    text-align: left;
+}
+
+.care-section-bg {
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+
+.care-section-img img {
+    width: 50vw;
+    margin-right: auto;
+}
+
+.btn-three {
+    background: #FFF;
+    margin-top: 20px;  
+}
+
+.btn-three span {
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
