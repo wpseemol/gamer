@@ -91,7 +91,7 @@ header {
     padding: 40px 0;
 }
 
-.nav-section span {
+.nav-section span, .footer-site-icon span {
     text-transform: capitalize;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -479,4 +479,63 @@ header {
 
 .service-section div img {
     width: 50px;
+}
+
+/* footer section style */
+.footer-bgc {
+    background-color: #0B0223;
+}
+
+.footer-container {
+    padding: 6.25rem 0;
+}
+.footer-container ul {
+    padding-bottom: 25px;
+    gap: 60px;
+}
+
+
+.footer-site-icon{
+    
+    gap: 20px;
+    margin-bottom: 35px;
+    
+}
+.footer-site-icon img {
+    width: 85px; 
+}
+
+.footer-social-icon ul {
+    gap: 40px
+}
+
+.footer-site-icon h2, h4, a {
+    color: #fff;
+}
+
+.footer-menu ul li a {
+   
+text-align: center;
+font-weight: 600;
+}
+
+.footer-social-icon ul li a {
+    font-size: 40px;
+}
+
+.footer-site-policy ul li a {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.copy-right-text h4 {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
