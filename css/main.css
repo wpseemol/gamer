@@ -60,6 +60,17 @@ a {
     text-decoration: none;
 }
 
+.pinmary-btn {
+    padding: 20px 40px;
+    border-radius: 48px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
 /* header and nave css */
 
 header {
@@ -116,3 +127,64 @@ header {
     color: #3C354F;
 
 }
+
+/* nave section style */
+.secend-btn {
+    background: #4EC5F7;
+}
+
+.banner-information h2, h3 {
+    text-align: left;
+}
+
+.banner-information h2 {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner-information h3 {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.banner-information p {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: lowercase;
+    padding: 10px 0;
+    
+}
+
+.banner-information p i {
+    color: #FF42A5;
+    font-size: 1rem;
+}
+
+.custom-icon i {
+    border: 2px solid #0B0223;
+    border-radius: 50%;
+    padding: 5px;
+
+}
+
+.banner-item i {
+    color: #0B0223 !important;
+}
+
+
+.banner-information button {
+    margin: 15px 25px 0 0;
+}
+
+.banner-img img {
+    width: 100%;
+}
+
