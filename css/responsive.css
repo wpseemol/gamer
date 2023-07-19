@@ -2,7 +2,8 @@
 @media screen and (max-width: 640px) {
     /* default css  */
     .container{
-        max-width: 100vw;
+        max-width: 620px;
+        margin: 0 auto;
         padding: 1rem;
     }
 
@@ -54,6 +55,10 @@
 
     .hero-information-sectio h3 {
         text-align: center;
+    }
+
+    .our-product.d-flex.ali-item-center.main-margin {
+        margin-bottom: -20px;
     }
 
     .products {
@@ -220,5 +225,117 @@
 /* table view style */
 
 @media screen and (min-width: 640px) and (max-width: 1024px ) {
+
+    .container {
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 0 2rem;
+    }
+
+
+    /* tabe css  */
+    .products.d-flex.jus-con-center.ali-item-center {
+        flex-wrap: wrap;
+    }
+
+    .ad-product-container.main-margin.d-flex.flex-dir-col.jus-con-space-between.ali-item-center {flex-direction: column;}
+
+    .ad-description-section {
+        width: 80vw;
+        text-align: center;
+    }
+
+    .ad-image {
+        width: 45vw;
+    }
+
+    .ad-description-section h2 {
+        text-align: center;
+    }
+
+    nav.nav-section.container.main-mobile-margin.d-flex.flex-dir-col.jus-con-space-between.ali-item-center {
+        padding: 30px 0;
+    }
+
+    .care-container.d-flex.flex-dir-col.jus-con-space-between.ali-item-center {
+        padding: 50px 0;
+    }
+
+    .care-section-info {
+        padding: 30px 0 30px 50px;
+    }
+
+    .footer-container {
+        padding: 5rem 0;
+    }
+    .footer-container ul {
+        padding-bottom: 25px;
+        gap: 30px;
+    }
+    
+    
+    .footer-menu ul {
+        display: grid;
+        grid-template-columns: repeat(3, 150px);
+        grid-template-rows: repeat(2, 40px);
+        justify-items: center;
+        align-items: center;
+        gap: 0;
+
+    }
+
+    .footer-social-icon ul {
+        display: grid;
+        grid-template-columns: repeat(3, 150px);
+        grid-template-rows: repeat(2, 50px);
+        justify-items: center;
+        align-items: center;
+        grid-template-rows: 10px;
+
+    }
+
+    .footer-site-policy ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 50px);
+        grid-template-rows: 0px;
+        align-content: center;
+        justify-content: space-evenly;
+        align-items: baseline;
+        margin: 0 255px;
+        justify-items: center;
+    }
+
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1280px ) {
+    .container {
+        max-width: 1140px;
+        margin: 0 auto;
+        padding: 0 3rem;
+    }
+
+
+    /* tabe css  */
+    .products.d-flex.jus-con-center.ali-item-center {
+        flex-wrap: wrap;
+    }
+
+    nav.nav-section.container.main-mobile-margin.d-flex.flex-dir-col.jus-con-space-between.ali-item-center {
+        padding: 50px 0;
+    }
+
+    .ad-image {
+        width: 40vw;
+    }
+
+    .care-container.d-flex.flex-dir-col.jus-con-space-between.ali-item-center {
+        padding: 70px 0;
+    }
+
+    .care-section-info {
+        padding: 30px 0 30px 70px;
+    }
 
 }
