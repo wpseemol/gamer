@@ -32,6 +32,7 @@
 
 body {
     font-family: 'Work Sans', sans-serif;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 
 h2,h3,h4 {
@@ -57,4 +58,61 @@ li {
 
 a {
     text-decoration: none;
+}
+
+/* header and nave css */
+
+header {
+    background-color: #fff;
+}
+
+.nav-section {
+    padding: 40px 0;
+}
+
+.nav-section span {
+    text-transform: capitalize;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.site-icon {
+    gap: 20px;
+}
+
+.nav-menu ul {
+    gap: 30px
+}
+
+.nav-menu ul li {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nave-socil-button {
+    width: fit-content;
+    padding: 18px 25px;
+    cursor: pointer;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    border: none;
+    font-size: 18px;
+    gap: 25px;
+} 
+
+.nave-socil-button i {
+    font-size: 25px;
+}
+
+.nave-socil-button i:first-child {
+    color: #F61C0D;
+}
+
+
+.nav-menu ul li a {
+    color: #3C354F;
+
 }
