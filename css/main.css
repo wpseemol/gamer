@@ -188,3 +188,57 @@ header {
     width: 100%;
 }
 
+/* hero section style  */
+.hero-bg {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.hero-section div {
+    width: 50%;
+}
+
+.hero-section div img {
+    width: 100%;
+}
+
+.hero-information-sectio {
+    text-align: right;
+    line-height: 45px;
+    margin: 95px 0; 
+}
+
+.hero-information-sectio p {
+   max-width: 520px;
+   margin: 25px 0 0 auto;
+}
+
+.hero-information-sectio button {
+    margin: 25px 0;
+}
+
+.hero-information-sectio h2 {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.hero-information-sectio h3 {
+    color: #534C64;
+    text-align: right;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.hero-information-sectio h3 span {
+    color: #534C64;
+    font-size: 32px;
+    font-weight: 700;
+   
+    
+}
+
+
