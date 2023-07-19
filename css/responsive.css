@@ -1,8 +1,75 @@
 /* mobile view style  */
 @media screen and (max-width: 640px) {
-    body {
-        background-color: red;
+    /* default css  */
+    .container{
+        max-width: 100vw;
+        padding: 1rem;
     }
+
+    .main-mobile-margin {
+        margin: 2rem 0.625rem;
+    }
+     
+    .flex-dir-col {
+          flex-direction: column
+    }
+    .flex-dir-col-rev {
+        flex-direction: column-reverse;
+    }
+
+    /* nave section for mobile view */
+    
+    .site-icon {
+        margin-bottom: 1rem;
+    }
+
+
+    .banner-section {
+        flex-direction: column-reverse;
+    }
+
+    .banner-information button {
+        margin: 0;
+    }
+
+    .banner-information {
+        padding: 3rem;
+    }
+
+    .hero-section div {
+        width: 100%;
+    }
+
+    .hero-information-sectio {
+        text-align: center;
+         
+    }
+
+    .hero-information-sectio h2 {
+        text-align: center;
+    }
+
+    .hero-information-sectio p {
+        margin: auto;
+    }
+
+    .hero-information-sectio h3{
+        text-align: center;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 /* table view style */
