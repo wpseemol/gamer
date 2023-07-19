@@ -9,9 +9,49 @@
     box-sizing: border-box;
 }
 
+
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+h2, h3 {
+    color: #0B0223;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+p {
+    color: #534C64;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
 .container {
     max-width: 70%;
     margin: 0 auto;
+}
+
+.main-margin {
+    margin: 95px 0;
 }
 
 .d-flex{
@@ -30,43 +70,13 @@
     align-items: center;
 }
 
-body {
-    font-family: 'Work Sans', sans-serif;
-    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-}
-
-h2,h3,h4 {
-    color: #0B0223;
-    text-align: right;
-    font-family: Work Sans;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-p {
-    color: #534C64;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-}
-
-li {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
-
 .pinmary-btn {
     padding: 20px 40px;
     border-radius: 48px;
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
     border: none;
     color: #FFF;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -99,7 +109,6 @@ header {
 
 .nav-menu ul li {
     text-align: center;
-    font-size: 18px;
     font-weight: 500;
 }
 
@@ -110,7 +119,6 @@ header {
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
     border: none;
-    font-size: 18px;
     gap: 25px;
 } 
 
@@ -197,14 +205,11 @@ header {
     width: 50%;
 }
 
-.hero-section div img {
-    width: 100%;
-}
 
 .hero-information-sectio {
     text-align: right;
     line-height: 45px;
-    margin: 95px 0; 
+     
 }
 
 .hero-information-sectio p {
@@ -221,8 +226,6 @@ header {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 48px;
-    font-weight: 700;
     line-height: normal;
 }
 
@@ -236,9 +239,69 @@ header {
 .hero-information-sectio h3 span {
     color: #534C64;
     font-size: 32px;
-    font-weight: 700;
-   
-    
+}
+
+/* site product section */
+
+.our-product {
+    flex-direction: column;
+    gap: 1rem
+}
+
+.our-product h2 span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: normal;
+}
+ 
+.products {
+    gap: 25px;
+}
+
+.products div {
+    /* width: 340px; */
+    height: 500px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 25px;
+    position: relative;
+
+}
+
+.products div div {
+    height: 400px;
+    transition: all 0.5s;
+    background-color: rgba(143, 7, 7, 0.534);
+    position: absolute;
+    z-index: 2;
+}
+
+.products div div::before {
+    width: 100px;
+    height: 200px;
+    content: '';
+    background-color: red;
+    position: relative;
+    top: 100px;
+}
+
+.products div div img{
+    transition: all 0.5s;
+}
+
+.products div div:hover {
+
+    /* border-radius: 18px;
+    border: 5px solid #ff42a5; */
+}
+
+.products div p {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
 }
 
 
